@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.App {
+  --red: #26dc2f;
+  --light-red: #1cb95d;
+  --dark-red: #54c596;
+  --white: #f9fafb;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: var(--white);
+  background: black;
+  max-width: 100%;
+  margin: -1rem;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.App-form {
+  padding: 0.75rem;
+  border: 1px solid black;
+}
+
+.App-input {
+  width: 70%;
+  margin-right: 0;
+}
+
+.App-btn {
+  font-family: "Montserrat", sans-serizf;
+  border-left: 0;
+}
+
+.Form-div {
+  margin: 2rem 0;
+}
+
+button {
+  background: var(--red);
+  color: var(--white);
+}
+
+button:hover {
+  background: var(--light-red);
+}
+
+button:active {
+  background: var(--dark-red);
+}
+
+.genre-item {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem 0.5rem;
+  margin: 0.75rem 1rem;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+}
+
+.App-book {
+  border: 1px solid #6b7280;
+  margin: auto;
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
+  width: 75%;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 1rem;
+}
+
+.App-book h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0.15em;
+  color: var(--red);
+}
+
+.App-book p {
+  line-height: 1.5rem;
+  margin-block-end: 0em;
+  margin-block-start: 0.8em;
+}
+
+strong {
+  color: var(--red);
+}
